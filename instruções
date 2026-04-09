@@ -1,0 +1,61 @@
+Criando o projeto meu_banco_de_dados
+Objetivo
+Criar um repositório no GitHub e usar o VS Code para adicionar arquivos de um projeto simples de banco de dados.
+________________________________________
+ Parte 1: Criar o repositório no GitHub
+1.	Acesse o GitHub 
+2.	Clique em "New repository" 
+3.	Preencha: 
+o	Nome: meu_banco_de_dados 
+o	Marque: Add a README 
+4.	Clique em Create repository 
+________________________________________
+Parte 2: Clonar no VS Code
+1.	Abra o Visual Studio Code 
+2.	Pressione Ctrl + Shift + P 
+3.	Digite: Git: Clone 
+4.	Cole a URL do repositório 
+5.	Escolha uma pasta no seu computador 
+6.	Clique em Open 
+________________________________________
+Parte 3: Criar os arquivos do projeto
+Dentro do VS Code, crie:
+1. Arquivo: banco.sql
+CREATE DATABASE escola;
+
+USE escola;
+
+CREATE TABLE alunos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100),
+    idade INT
+);
+
+INSERT INTO alunos (nome, idade) VALUES
+('Ana', 20),
+('Carlos', 22),
+('Maria', 19);
+________________________________________
+2. Arquivo: README.md
+# Meu Banco de Dados
+
+Projeto simples de banco de dados para estudo.
+
+## Estrutura
+- Tabela: alunos
+- Campos: id, nome, idade
+________________________________________ Parte 4: Enviar para o GitHub (commit + push)
+No VS Code:
+1.	Vá na aba Source Control (Controle de Código) 
+2.	Clique em + para adicionar os arquivos 
+3.	Escreva a mensagem:
+Adicionando estrutura inicial do banco de dados
+4.	Clique em Commit 
+5.	Clique em Push 
+________________________________________
+Resultado esperado
+Você terá:
+•	Um repositório no GitHub ✔️ 
+•	Arquivos SQL e README ✔️ 
+•	Código versionado ✔️
+
